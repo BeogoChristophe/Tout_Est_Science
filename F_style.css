@@ -1,0 +1,63 @@
+/* Styles spécifiques */
+body{
+    background: #2b2626dd;
+}
+.container{
+    display: flex;
+  
+}
+.discussions{
+    width: 70%;
+    margin-left: 20%;
+    padding: 10px;
+} 
+#discussionForm {
+    margin-bottom: 20px;
+    width: 30%;
+}
+ h2{
+    text-align: center;
+    background: #100f0fdf;
+    color:#fff;
+    border-radius: 20px;
+}
+#discussionForm input[type="file"] {
+    margin-bottom: 10px;
+    
+}
+ #messageInput{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#discussionContainer img {
+    
+    width:60px;
+    height: 60px;
+    padding:4px;
+    /* margin-top: 10px; */
+    border-radius: 40px;
+    background: #3b3737;
+}
+
+.discussions{
+    background: #121010;
+    border-radius: 10px solid #fff;
+    color: #eeebeb;
+    /* display: flex; */
+    width: 70%;
+}
+.discussions #discussionContainer{
+    background: #121010;
+    color: #eeebeb;
+    /* display: flex; */
+}
+.discussions #discussionContainer p {
+    color: hsl(0, 8%, 93%);
+   margin-left:20% ;
+    width: 70%;
+    height: 50px;
+    margin-top: -80px;
+    padding: 10px;
+    background: #2b2626dd;
+    border: 4px solid hsl(255, 85%, 48%);
+}
